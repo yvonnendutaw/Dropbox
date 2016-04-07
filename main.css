@@ -58,6 +58,9 @@ img {
     width: 120px;
     height: 100px;
 }
+img: hover {
+    background-color: rgba(0, 0, 0, 0.45);
+}
 aside button {
     margin-top: 200px;
     margin-left: 30px;
@@ -66,9 +69,10 @@ aside button {
     border: solid 1px blue;
     border-radius: 2px;
     color: white;
+    width: 70%;
+    height: 6%;
 }
 button {
-    padding: 10px;
     border: none;
 }
 header #search {
@@ -90,4 +94,10 @@ header #search {
 i {
     margin-right: 6%;
     font-size: 2em;
+}
+#name {
+    border: solid 1px;
+    background-color: #261e1e;
+    border-radius: 6px;
+    color: white;
 }
