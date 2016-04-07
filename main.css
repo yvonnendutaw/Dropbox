@@ -87,3 +87,7 @@ header #search {
     float: right;
     margin: 0;
 }
+i {
+    margin-right: 6%;
+    font-size: 2em;
+}
