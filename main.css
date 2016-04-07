@@ -1,0 +1,89 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 900px;
+    background: -webkit-linear-gradient(#7693C1, #AF8778, #C6B9B5, #6A7888);
+}
+.container {
+    width: 80%;
+    position: relative;
+    top: 100px;
+    margin-bottom: 20%;
+    height: 750px;
+    background-color: #FFFFFF;
+    align-content: center;
+    box-shadow: 5px gray;
+}
+.container aside {
+    float: left;
+    width: 20%;
+    background-color: #41495F;
+    height: 100%;
+    margin-left: -17px;
+}
+nav {
+    margin: 0px;
+    color: white;
+}
+#dropbox {
+    width: auto;
+    color: #00B5F9;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+}
+ul,
+li {
+    list-style: none;
+    padding: 20px;
+}
+.main header {
+    height: 100px;
+    background-color: white;
+    margin: 0;
+}
+#icons li {
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 4px;
+    margin-left: 3px;
+}
+.images li {
+    display: inline-block;
+}
+img {
+    width: 120px;
+    height: 100px;
+}
+aside button {
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-right: auto;
+    background-color: #41495F;
+    border: solid 1px blue;
+    border-radius: 2px;
+    color: white;
+}
+button {
+    padding: 10px;
+    border: none;
+}
+header #search {
+    float: left;
+    border: solid 0px transparent;
+    height: 30px;
+    margin-top: 1px;
+    margin-left: 3px;
+}
+#header #photo {
+    text-align: left;
+}
+#names {
+    display: inline-block;
+    vertical-align: baseline;
+    float: right;
+    margin: 0;
+}
